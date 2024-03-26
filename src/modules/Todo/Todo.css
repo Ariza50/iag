@@ -1,0 +1,27 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.empty {
+    background-color: #c24378;
+}
+
+.fill {
+    text-decoration: line-through;
+}
+
+button {
+    margin-left: 15px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
